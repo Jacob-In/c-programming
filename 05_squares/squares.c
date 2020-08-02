@@ -46,7 +46,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
       //    ((x is between x_offset and x_offset +size2) AND
 	(((x >= x_offset && x < x_offset + size2) &&
       //     y is equal to either y_offset OR y_offset + size2 - 1 )
-	  (x == y_offset || x == y_offset + size2 - 1)) ||
+	  (y == y_offset || y == y_offset + size2 - 1)) ||
       //OR
       //    ((y is between y_offset and y_offset + size2) AND
 	 ((y >= y_offset && y < y_offset + size2) &&
