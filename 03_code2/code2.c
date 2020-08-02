@@ -14,7 +14,7 @@ int printTriangle(int size) {
 	j++;
 	starCount++;
      //when you finish counting on j, 
-     i=j}
+     }
      //print a newline ("\n")
      printf("\n");
   //when you finish counting on i, 
